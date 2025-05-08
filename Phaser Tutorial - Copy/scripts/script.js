@@ -16,15 +16,9 @@ var config = {
     }
 };
 
-var player;
-var stars;
-var bombs;
-var platforms;
-var cursors;
+var player, stars, bombs, platforms, cursors, scoreText, starsCollectedText;
 var score = 0;
 var gameOver = false;
-var scoreText;
-let starsCollectedText;
 let starsCollected = 0;
 let colorIterator = 0;
 
